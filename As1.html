@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <title>Product List</title>
+    
+  </head>
+
+  <body>
+        <!--Header-->
+        <header class="container"style="margin-top:15px ">
+    
+        <div class="alert alert-success" role="alert">
+            <h1 class="text-center" style="padding: 20px;"class="alert-heading">Simple Product List</h1>
+        </div>
+        
+    <hr>
+    <ul>
+       <li> <div class="row">
+            <div class="col-4">
+                    <img class="img-responsive img-fluid;center-image;" style= "width: 100%; border-radius: 10px; height: auto;" 
+                    src="data:image/jpeg;base64,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">
+            </div>
+        <div class="col-8">
+                <h3 class="text-center" style="padding: 3px; margin-top:10px;">MILK</h3>
+                <hr>
+                    <p style="font-family: 'Open Sans', sans-serif; background-color: antiquewhite ; font-size: 15px;">
+                        Milk is a white liquid food produced by the mammary glands of mammals. It is the primary source of nutrition for young mammals (including breastfed human infants) before they are able to digest solid food. Immune factors and immune-modulating components in milk contribute to milk immunity. Early-lactation milk, which is called colostrum, contains antibodies that strengthen the immune system, and thus reduces the risk of many diseases. Milk contains many nutrients, including protein and lactose.
+                    <br>
+                    <a class="nav-link" href="https://en.wikipedia.org/wiki/Milk">For More details...</a>
+                </p>        
+            </div>
+        </div></li>
+        <br>
+        <li> <div class="row">
+            <div class="col-4">
+                    <img class="img-responsive img-fluid;center-image;" style= "width: 100%; border-radius: 10px; height: auto;" 
+                    src="https://cdn.britannica.com/73/239573-050-E9A4DB36/sugar-cubes.jpg">
+            </div>
+        <div class="col-8">
+                <h3 class="text-center" style="padding: 3px; margin-top:10px;">SUGAR</h3>
+                <hr>
+                    <p style="font-family: 'Open Sans', sans-serif; background-color: antiquewhite ; font-size: 15px;">
+                        Sugar is the generic name for sweet-tasting, soluble carbohydrates, many of which are used in food. Simple sugars, also called monosaccharides, include glucose, fructose, and galactose.
+                    
+                    <a class="nav-link" href="https://en.wikipedia.org/wiki/Sugar">For More details...</a>
+                </p>        
+            </div>
+        </div></li>
+        <br>
+        <li> <div class="row">
+            <div class="col-4">
+                <img class="img-responsive img-fluid;center-image;" style= "width: 100%; border-radius: 10px; height: auto;" 
+                src="https://www.thespruceeats.com/thmb/aoQd_AmdGA2O1jHp5lCXrrZjfi4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/how-to-make-masala-chai-tea-4134710-step-05-1-d3f31d2f583743459275556b2c33b806.jpg">
+            </div>
+        <div class="col-8">
+                <h3 class="text-center" style="padding: 3px; margin-top:10px;">TEA</h3>
+                <hr>
+                    <p style="font-family: 'Open Sans', sans-serif; background-color: antiquewhite ; font-size: 15px;">
+                        Tea is an aromatic beverage prepared by pouring hot or boiling water over cured or fresh leaves of Camellia sinensis, an evergreen shrub native to East Asia which probably originated in the borderlands of southwestern China and northern Myanmar.
+                    <br>
+                    <a class="nav-link" href="https://en.wikipedia.org/wiki/Milk">For More details...</a>
+                </p>        
+            </div>
+        </div></li>
+        <br>
+        <li> <div class="row">
+            <div class="col-4">
+                    <img class="img-responsive img-fluid;center-image;" style= "width: 100%; border-radius: 10px; height: auto;" 
+                    src="https://e0.pxfuel.com/wallpapers/993/1014/desktop-wallpaper-hot-coffee-rose-beans-cup-saucer-cofee-thumbnail.jpg">
+            </div>
+        <div class="col-8">
+                <h3 class="text-center" style="padding: 3px; margin-top:10px;">COFFEE</h3>
+                <hr>
+                    <p style="font-family: 'Open Sans', sans-serif; background-color: antiquewhite ; font-size: 15px;">
+                        Coffee is a beverage prepared from roasted coffee beans. Darkly colored, bitter, and slightly acidic, coffee has a stimulating effect on humans, primarily due to its caffeine content. It has the highest sales in the world market for hot drinks.
+                    <br>
+                    <a class="nav-link" href="https://en.wikipedia.org/wiki/Coffee">For More details...</a>
+                </p>        
+            </div>
+        </div></li>
+        <br>
+        <li> <div class="row">
+            <div class="col-4">
+                    <img class="img-responsive img-fluid;center-image;" style= "width: 100%; border-radius: 10px; height: auto;" 
+                    src="https://i.cbc.ca/1.6780634.1678975147!/cumulusImage/httpImage/image.jpg_gen/derivatives/16x9_780/shutterstock-medium-file.jpg">
+            </div>
+        <div class="col-8">
+                <h3 class="text-center" style="padding: 3px; margin-top:10px;">Salt</h3>
+                <hr>
+                    <p style="font-family: 'Open Sans', sans-serif; background-color: antiquewhite ; font-size: 15px;">
+                        In common usage, salt is a mineral composed primarily of sodium chloride (NaCl). In the form of a natural crystalline mineral, salt is also known as rock salt or halite. Salt is essential for life in general, and saltiness is one of the basic human tastes.
+                        <br>
+                    <a class="nav-link" href="https://en.wikipedia.org/wiki/Salt">For More details...</a>
+                </p>        
+            </div>
+        </div></li>
+       <br>
+    </ul>
+
+
+
+</header>        
+<br>
+
+<hr>
+    <!--Footer-->
+   <footer>
+    <p class="text-center" >Copyright &copy; Prakhar Prakash Gupta (2023)</p>
+    <p class="text-center" > All Rights Reserved & Made with &hearts; in INDIA</p>
+    </footer>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+</body>
+</html>
